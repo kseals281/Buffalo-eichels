@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -13,19 +13,56 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Eichel-header {
+  background-color: #002654;
+  min-height: 30vh;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(35px + 2vmin);
+}
+
+.Title-text-left {
+  color: #FCB514;
+  float: left;
+  margin: 0 .5em;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.Title-text-right {
+  color: #FCB514;
+  float: right;
+  margin: 0 .5em;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.App-footer {
+  background-color: #002654;
+  min-height: 10vh;
+  display: flex;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #FCB514;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.Physical-stats {
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.Physical-stats-col {
+  align-content: center;
+  text-align: center;
+  margin: 0 0;
 }
 
 @keyframes App-logo-spin {
