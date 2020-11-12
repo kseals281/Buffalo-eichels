@@ -1,7 +1,7 @@
 import React from "react";
 import {Card, Divider, Image, Table} from "semantic-ui-react";
-import eichel from "./eichel.jpg";
-import sabres from "./sabres-icon.png";
+import eichel from "../public/eichel.jpg";
+import sabres from "../public/sabres-icon.png";
 
 
 export default class Goalie extends React.Component {
