@@ -1,5 +1,5 @@
 import React from 'react';
-import sabres from "../public/sabres-icon.png";
+import sabres from "./sabres-icon.png";
 import './App.css';
 import Player from './Player'
 import Goalie from './Goalie'
